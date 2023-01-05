@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include wwerptheme *.css
+recursive-include wwerptheme *.csv
+recursive-include wwerptheme *.html
+recursive-include wwerptheme *.ico
+recursive-include wwerptheme *.js
+recursive-include wwerptheme *.json
+recursive-include wwerptheme *.md
+recursive-include wwerptheme *.png
+recursive-include wwerptheme *.py
+recursive-include wwerptheme *.svg
+recursive-include wwerptheme *.txt
+recursive-exclude wwerptheme *.pyc
